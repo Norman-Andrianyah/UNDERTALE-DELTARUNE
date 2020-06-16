@@ -1,0 +1,128 @@
+body {
+    font-family: "8bitOperator";
+    color: white;
+    background-color: black;
+}
+.navbar {
+    background-color: rgb(51, 51, 51);
+    padding: 8px;
+    margin: -10px;
+}
+.navbar > ul {
+    list-style: none;
+}
+.navbar > ul > li {
+    display: inline-block;
+    margin-right: 18px;
+}
+.navbar > ul > li > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.navbar > ul > li > a:hover {
+    color: yellow;
+}
+.header {
+    text-align: center;
+    margin: 1cm;
+}
+@font-face {
+    font-family: "8bitOperator";
+    src: url('http://vignette2.wikia.nocookie.net/heliosanctus/images/c/c0/Determination.eot');
+    src: url('http://vignette2.wikia.nocookie.net/heliosanctus/images/c/c0/Determination.eot?#iefix') format('embedded-opentype'),
+         url('http://vignette3.wikia.nocookie.net/heliosanctus/images/a/aa/Determination.woff2') format('woff2'),
+         url('http://vignette3.wikia.nocookie.net/heliosanctus/images/3/37/Determination.woff') format('woff'),
+         url('http://vignette2.wikia.nocookie.net/heliosanctus/images/c/cd/Determination.ttf') format('truetype'),
+         url('http://vignette3.wikia.nocookie.net/heliosanctus/images/7/7f/Determination.svg#Undertale') format('svg');
+}
+.bg-body {
+    background-color: rgb(14, 14, 14);
+    margin: 2cm;
+    text-align: center;
+    padding-bottom: 60px;
+    border-radius: 20px;
+}
+.bg-body > p {
+    text-align: center;
+}
+.download-btn {
+    text-align: center;
+}
+.download-btn > a {
+    text-decoration: none;
+}
+.download-btn > a > button {
+    background: none;
+    margin: 30px;
+    border-color: white;
+    border-style: solid;
+}
+.download-btn > a > button:hover {
+    background-color: rgb(22, 22, 22);
+}
+.download-btn > a > button > img {
+    width: 200px;
+}
+.music-btn {
+    text-align: center;
+}
+.music-btn > a {
+    text-decoration: none;
+}
+.music-btn > a > button {
+    background: none;
+    padding: 14px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    font-size: x-large;
+    font-family: "8bitOperator";
+    color: white;
+}
+.music-btn > a > button:hover {
+    color: yellow;
+    border-color: yellow;
+}
+.btn-mus > a > button {
+    background: none;
+    border: none;
+    padding: 20px;
+}
+.btn-mus > a > button > img {
+    width: 10cm;
+    border-style: solid;
+    border-color: white;
+}
+.btn-mus > a > button > img:hover {
+    border-color: yellow;
+}
+.annoying-dog {
+    text-align: center;
+}
+.end {
+    text-align: center;
+}
+#delta > img {
+    width: 500px;
+}
+#file-size {
+    color: white;
+    font-family: "8bitOperator";
+    font-size: x-large;
+    margin: 10px;
+    text-align: center;
+}
+.end-msg {
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    padding: 20px;
+    font-size: small;
+    margin: -20px;
+}
+.end-msg > p {
+    margin: 40px;
+}
+.end-msg > p > a {
+    color: yellow;
+}
